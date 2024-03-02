@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 18px;
+  background-color: #c5bebe;
+}
+/* ヘッダー */
+.toumei {
+  background-color:  rgba(0,0,0,0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+}
+/* 背景 */
+.haikei {
+  background-image: url(../img/study.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+button {
+  width:70px;
+  height:40px;
+  background:rgb(248, 217, 118);
+  border-radius:30px;
+  font-size: 18px;
+}
+input {
+  height: 36px;
+  width: 250px;
+  border-radius:30px;
+}
+#top>li{
+  background-color: rgb(128, 60, 28);
+  font-size: 22px;
+  /* font-weight: bold; */
+  color: #FFF;
+  vertical-align: middle;
+  text-align: center;
+  height: 40px
+ }
+ main {
+  background-color: #c5bebe;
+}
+
+ul {
+  padding: 0;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+li {
+  text-align: left;
+  list-style-type: none;
+  border: 1px solid #666;
+  background-color: #ffffff;
+  display: table-cell;
+  /* 定義 */
+  cursor: pointer;
+}
+footer {
+  background-color: rgb(128, 60, 28);
+  text-align: center;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+}
